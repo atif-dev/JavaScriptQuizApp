@@ -21,7 +21,7 @@ html {
 }
 
 .inner-div{
-    width: 40vw;
+    /* width: 40vw; */
     background-color: #fff;
     padding: 3rem 8rem;
     border-radius: 1rem;
