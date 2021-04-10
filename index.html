@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- shortcut: div.main-div -->
+    <div class="main-div">
+        <div class="inner-div" id="innerDiv"> 
+            <h2 class="question">Question comes here</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <label for="ans1" id="option1">Ans Opt</label>
+                </li>
+                
+                <li>
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <label for="ans2" id="option2">Ans Opt</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <label for="ans1=3" id="option3">Ans Opt</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <label for="ans4" id="option4">Ans Opt</label>
+                </li>
+
+            </ul>
+
+            <button id="submit" value="PLAY">submit</button>
+            <audio id="audio" src="Tiny Button Push-SoundBible.com-513260752.mp3"></audio>
+            <!-- <div id="showScore" class="scoreArea"></div> -->
+        </div>
+        <div id="showScore" class="scoreArea"></div>
+    </div> 
+<script src="script.js"></script>
+</body>
+</html>
